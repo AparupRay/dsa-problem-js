@@ -18,3 +18,6 @@ const ValidParentheses = (s) => {
   }
   return stack.length === 0;
 };
+
+// Time complexity: O(n), where n is the length of the string
+// Space complexity: O(n), where n is the length of the string
